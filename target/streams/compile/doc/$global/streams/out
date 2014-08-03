@@ -1,0 +1,43 @@
+[0m[[0minfo[0m] [0mMain Java API documentation to /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javadoc directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javadoc.Main not found with appropriate method signature; forking javadoc instead[0m
+[0m[[0mdebug[0m] [0mForking javadoc: javadoc @/tmp/sbt_b9d0f01d/argfile[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/geoutils/Coordinate.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/geoutils/GeoUtils.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/sensorutils/Attitude.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/sensorutils/Example0.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/sensorutils/PanTilt.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/sensorutils/Polygon.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/sensorutils/RollPitchYaw.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/src/main/java/com/eloipereira/sensorutils/SensorCoverage.java...[0m
+[0m[[0minfo[0m] [0mConstructing Javadoc information...[0m
+[0m[[0minfo[0m] [0mStandard Doclet version 1.7.0_55[0m
+[0m[[0minfo[0m] [0mBuilding tree for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/Attitude.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/Example0.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/PanTilt.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/Polygon.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/RollPitchYaw.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/SensorCoverage.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/geoutils/Coordinate.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/geoutils/GeoUtils.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/overview-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/geoutils/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/geoutils/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/geoutils/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/com/eloipereira/sensorutils/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/constant-values.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/overview-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/index-all.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/deprecated-list.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/allclasses-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/allclasses-noframe.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/index.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/overview-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/api/help-doc.html...[0m
+[0m[[0mdebug[0m] [0mjavadoc returned exit code: 0[0m
+[0m[[0minfo[0m] [0mMain Java API documentation successful.[0m

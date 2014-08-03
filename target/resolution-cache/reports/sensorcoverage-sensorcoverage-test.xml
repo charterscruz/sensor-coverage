@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="sensorcoverage"
+		module="sensorcoverage"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140803160305"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="2.0" status="release" pubdate="20131031161328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6568" time="0" location="/home/eloi/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.pom"/>
+				<caller organisation="sensorcoverage" name="sensorcoverage" conf="test, compile, runtime" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="7158439" time="0" location="/home/eloi/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.0" status="release" pubdate="20121220072932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2552" time="0" location="/home/eloi/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3149351" time="0" location="/home/eloi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.0/scala-reflect-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.micromata.jak" name="JavaAPIforKml">
+			<revision name="2.2.0-SNAPSHOT" status="integration" pubdate="20100520014403" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/javaapiforkml/" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="BSD license" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3472" time="0" location="/home/eloi/.ivy2/cache/de.micromata.jak/JavaAPIforKml/ivy-2.2.0-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-20100113.170523-12.pom"/>
+				<caller organisation="sensorcoverage" name="sensorcoverage" conf="test, compile, runtime" rev="2.2.0-SNAPSHOT" rev-constraint-default="2.2.0-SNAPSHOT" rev-constraint-dynamic="2.2.0-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="JavaAPIforKml" type="jar" ext="jar" status="no" details="" size="619517" time="0" location="/home/eloi/.ivy2/cache/de.micromata.jak/JavaAPIforKml/jars/JavaAPIforKml-2.2.0-SNAPSHOT.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-20100113.170523-12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xmlunit" name="xmlunit">
+			<revision name="1.2" status="release" pubdate="20080610111658" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlunit.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="BSD License" url="http://xmlunit.svn.sourceforge.net/viewvc/*checkout*/xmlunit/trunk/xmlunit/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/eloi/.ivy2/cache/xmlunit/xmlunit/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xmlunit/xmlunit/1.2/xmlunit-1.2.pom"/>
+				<caller organisation="de.micromata.jak" name="JavaAPIforKml" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xmlunit" type="jar" ext="jar" status="no" details="" size="96507" time="0" location="/home/eloi/.ivy2/cache/xmlunit/xmlunit/jars/xmlunit-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xmlunit/xmlunit/1.2/xmlunit-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-xjc">
+			<revision name="2.2" status="release" pubdate="20091210132031" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<metadata-artifact status="no" details="" size="2360" time="0" location="/home/eloi/.ivy2/cache/com.sun.xml.bind/jaxb-xjc/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-xjc/2.2/jaxb-xjc-2.2.pom"/>
+				<caller organisation="de.micromata.jak" name="JavaAPIforKml" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jaxb-xjc" type="jar" ext="jar" status="no" details="" size="3101284" time="0" location="/home/eloi/.ivy2/cache/com.sun.xml.bind/jaxb-xjc/jars/jaxb-xjc-2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-xjc/2.2/jaxb-xjc-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-impl">
+			<revision name="2.2" status="release" pubdate="20091210132031" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2359" time="0" location="/home/eloi/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2/jaxb-impl-2.2.pom"/>
+				<caller organisation="com.sun.xml.bind" name="jaxb-xjc" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2"/>
+				<caller organisation="de.micromata.jak" name="JavaAPIforKml" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="872831" time="0" location="/home/eloi/.ivy2/cache/com.sun.xml.bind/jaxb-impl/jars/jaxb-impl-2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2/jaxb-impl-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.2" status="release" pubdate="20100107162231" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<metadata-artifact status="no" details="" size="2496" time="0" location="/home/eloi/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.pom"/>
+				<caller organisation="com.sun.xml.bind" name="jaxb-impl" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="104172" time="0" location="/home/eloi/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20060503004829" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2718" time="0" location="/home/eloi/.ivy2/cache/javax.activation/activation/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.2"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="/home/eloi/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.stream" name="stax-api">
+			<revision name="1.0-2" status="release" pubdate="20081004185903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="GNU General Public Library" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="http://www.sun.com/cddl/cddl.html"/>
+				<metadata-artifact status="no" details="" size="2527" time="0" location="/home/eloi/.ivy2/cache/javax.xml.stream/stax-api/ivy-1.0-2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="2.2"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="no" details="" size="23346" time="0" location="/home/eloi/.ivy2/cache/javax.xml.stream/stax-api/jars/stax-api-1.0-2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="gov.nist.math" name="jama">
+			<revision name="1.0.3" status="release" pubdate="20130617010433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://math.nist.gov/javanumerics/jama/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain/"/>
+				<metadata-artifact status="no" details="" size="2612" time="0" location="/home/eloi/.ivy2/cache/gov.nist.math/jama/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/gov/nist/math/jama/1.0.3/jama-1.0.3.pom"/>
+				<caller organisation="sensorcoverage" name="sensorcoverage" conf="test, compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jama" type="jar" ext="jar" status="no" details="" size="37424" time="0" location="/home/eloi/.ivy2/cache/gov.nist.math/jama/jars/jama-1.0.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/gov/nist/math/jama/1.0.3/jama-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140318214629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/home/eloi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="sensorcoverage" name="sensorcoverage" conf="test, compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/home/eloi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile), default" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="sensorcoverage" name="sensorcoverage" conf="test, compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

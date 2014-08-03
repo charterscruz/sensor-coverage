@@ -1,0 +1,13 @@
+[debug] Other repositories:
+[debug] 	FileRepository(publish-m2-local,FileConfiguration(true,None),Patterns(ivyPatterns=List(), artifactPatterns=List(/Users/eloipereira/.m2/repository/[organisation]/[module](_[scalaVersion])(_[sbtVersion])/[revision]/[artifact]-[revision](-[classifier]).[ext]), isMavenCompatible=true))
+[debug] 	FileRepository(file,FileConfiguration(true,None),Patterns(ivyPatterns=List(), artifactPatterns=List(/Users/eloipereira/.m2/repository/releases/[organisation]/[module](_[scalaVersion])(_[sbtVersion])/[revision]/[artifact]-[revision](-[classifier]).[ext]), isMavenCompatible=true))
+[debug] Default repositories:
+[debug] 	Raw(ProjectResolver(inter-project, mapped: ))
+[debug] 	FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false))
+[debug] 	public: http://repo1.maven.org/maven2/
+[debug] 	My bitbucket maven releases repo: https://bitbucket.org/eloipereira/maven-repo-releases/raw/master
+[debug] 	public: http://repo1.maven.org/maven2/
+[debug] 	Java.net repository: http://download.java.net/maven/2
+[debug] 	Open Source Geospatial Foundation Repository: http://download.osgeo.org/webdav/geotools/
+[debug] 	OpenGeo Maven Repository: http://repo.opengeo.org
+[debug] Using inline dependencies specified in Scala.

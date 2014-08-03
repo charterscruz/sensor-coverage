@@ -1,0 +1,711 @@
+[debug] :: resolving dependencies :: sensorcoverage#sensorcoverage$sources_javadoc;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ced46b
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.3
+[debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
+[debug] 	[2.10.3] org.scala-lang#scala-library;2.10.3
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
+[info] Resolving gov.nist.math#jama;1.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c712fb5
+[debug] sbt-chain: module revision found in cache: gov.nist.math#jama;1.0.3
+[debug] 	local: revision in cache: gov.nist.math#jama;1.0.3
+[debug] 	found gov.nist.math#jama;1.0.3 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[info] Resolving de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4efc646f
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[debug] 		tried /home/eloi/.ivy2/local/de.micromata.jak/JavaAPIforKml/2.2.0-SNAPSHOT/ivys/ivy.xml
+[debug] 	local: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	maven-metadata not available: http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[debug] 		tried http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[warn] Host bitbucket.org not found. url=https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	maven-metadata not available: https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[debug] 		tried https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] Host bitbucket.org not found. url=https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	My bitbucket maven releases repo: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	maven-metadata not available: http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[debug] 		tried http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[warn] Host download.java.net not found. url=http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	maven-metadata not available: http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[debug] 		tried http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] Host download.java.net not found. url=http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	Java.net repository: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[warn] Host download.osgeo.org not found. url=http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	maven-metadata not available: http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[debug] 		tried http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] Host download.osgeo.org not found. url=http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	Open Source Geospatial Foundation Repository: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
+[warn] Host repo.opengeo.org not found. url=http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	maven-metadata not available: http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
+[debug] 		tried http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] Host repo.opengeo.org not found. url=http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	OpenGeo Maven Repository: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[warn] 	module not found: de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[warn] ==== local: tried
+[warn]   /home/eloi/.ivy2/local/de.micromata.jak/JavaAPIforKml/2.2.0-SNAPSHOT/ivys/ivy.xml
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] ==== My bitbucket maven releases repo: tried
+[warn]   https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] ==== public: tried
+[warn]   http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] ==== Java.net repository: tried
+[warn]   http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] ==== Open Source Geospatial Foundation Repository: tried
+[warn]   http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[warn] ==== OpenGeo Maven Repository: tried
+[warn]   http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
+[info] Resolving com.sun.xml.bind#jaxb-impl;2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ecae26d
+[debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-impl;2.2
+[debug] 	local: revision in cache: com.sun.xml.bind#jaxb-impl;2.2
+[debug] 	found com.sun.xml.bind#jaxb-impl;2.2 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
+[info] Resolving javax.xml.bind#jaxb-api;2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@156513bb
+[debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2
+[debug] 	local: revision in cache: javax.xml.bind#jaxb-api;2.2
+[debug] 	found javax.xml.bind#jaxb-api;2.2 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
+[info] Resolving javax.xml.stream#stax-api;1.0-2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@431d0dfc
+[debug] sbt-chain: module revision found in cache: javax.xml.stream#stax-api;1.0-2
+[debug] 	local: revision in cache: javax.xml.stream#stax-api;1.0-2
+[debug] 	found javax.xml.stream#stax-api;1.0-2 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
+[info] Resolving javax.activation#activation;1.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f6f44a
+[debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
+[debug] 	local: revision in cache: javax.activation#activation;1.1
+[debug] 	found javax.activation#activation;1.1 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
+[info] Resolving com.sun.xml.bind#jaxb-xjc;2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a0f2d0d
+[debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-xjc;2.2
+[debug] 	local: revision in cache: com.sun.xml.bind#jaxb-xjc;2.2
+[debug] 	found com.sun.xml.bind#jaxb-xjc;2.2 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [runtime]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [test]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [runtime]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.10;2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4671e502
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.0
+[debug] 	local: revision in cache: org.scalatest#scalatest_2.10;2.0
+[debug] 	found org.scalatest#scalatest_2.10;2.0 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@159aa99f
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile-internal]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->master]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [optional]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [provided]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [runtime-internal]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [runtime]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->master]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [optional]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [test-internal]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [test]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [runtime]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [runtime->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->master]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [optional]
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [provided]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test-internal->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [scala-tool]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.10.3
+[debug] 	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.3
+[debug] 	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain
+[debug] 	[2.10.3] org.scala-lang#scala-reflect;2.10.3
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#jline;2.10.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#jline;2.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#jline;2.10.3
+[debug] 	found org.scala-lang#jline;2.10.3 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#jline;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#jline;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#jline;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	local: revision in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(doc)
+[debug] 	[NOT REQUIRED] gov.nist.math#jama;1.0.3!jama.jar(src)
+[debug] 	[NOT REQUIRED] gov.nist.math#jama;1.0.3!jama.jar(doc)
+[debug] 	[NOT REQUIRED] gov.nist.math#jama;1.0.3!jama.jar
+[debug] 	[NOT REQUIRED] com.sun.xml.bind#jaxb-impl;2.2!jaxb-impl.jar(src)
+[debug] 	[NOT REQUIRED] com.sun.xml.bind#jaxb-impl;2.2!jaxb-impl.jar
+[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2!jaxb-api.jar
+[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2!jaxb-api.jar(src)
+[debug] 	[NOT REQUIRED] javax.xml.stream#stax-api;1.0-2!stax-api.jar(src)
+[debug] 	[NOT REQUIRED] javax.xml.stream#stax-api;1.0-2!stax-api.jar
+[debug] 	[NOT REQUIRED] javax.activation#activation;1.1!activation.jar
+[debug] 	[NOT REQUIRED] javax.activation#activation;1.1!activation.jar(src)
+[debug] 	[NOT REQUIRED] com.sun.xml.bind#jaxb-xjc;2.2!jaxb-xjc.jar
+[debug] 	[NOT REQUIRED] com.sun.xml.bind#jaxb-xjc;2.2!jaxb-xjc.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.0!scalatest_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.0!scalatest_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.0!scalatest_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
+[debug] :: resolution report :: resolve 1027ms :: artifacts dl 84ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::          UNRESOLVED DEPENDENCIES         ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: not found
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 compile produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-compile.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 runtime produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-runtime.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 test produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-test.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 provided produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-provided.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 optional produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-optional.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 compile-internal produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-compile-internal.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 runtime-internal produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-runtime-internal.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 test-internal produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-test-internal.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 plugin produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-plugin.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 sources produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-sources.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 docs produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-docs.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 pom produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-pom.xml
+[debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 scala-tool produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-scala-tool.xml
+[debug] 	resolve done (1027ms resolve - 84ms download)

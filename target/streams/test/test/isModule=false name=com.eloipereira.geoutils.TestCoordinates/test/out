@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mTestCoordinates:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Geodetic to ECEF[0m[0m
+[0m[[0minfo[0m] [0m[32m- ECEF to ENU[0m[0m
+[0m[[0minfo[0m] [0m[32m- ENU to ECEF[0m[0m
+[0m[[0minfo[0m] [0m[32m- ECEF to Geodetic[0m[0m
+[0m[[0minfo[0m] [0m[32m- ECEF to Geodetic North Pole[0m[0m
+[0m[[0minfo[0m] [0m[32m- ENU to NED[0m[0m

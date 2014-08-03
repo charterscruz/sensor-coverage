@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Placemark>
+        <name>Polygon</name>
+        <open>1</open>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>-9.76140706533055,39.239511633468275 -9.757045604192554,39.232720359433664 -9.754089988713952,39.23258013096302 -9.752227399676261,39.23598367947725 -9.76140706533055,39.239511633468275</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</kml>

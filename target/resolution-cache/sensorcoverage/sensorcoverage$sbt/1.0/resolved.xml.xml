@@ -4,7 +4,7 @@
 		module="sensorcoverage$sbt"
 		revision="1.0"
 		status="integration"
-		publication="20140803153113"
+		publication="20140809135301"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

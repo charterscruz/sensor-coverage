@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140803160305"/>
+		date="20140927132013"/>
 	<dependencies>
 		<module organisation="de.micromata.jak" name="JavaAPIforKml">
 			<revision name="2.2.0-SNAPSHOT" status="integration" pubdate="20100520014403" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/javaapiforkml/" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="2">

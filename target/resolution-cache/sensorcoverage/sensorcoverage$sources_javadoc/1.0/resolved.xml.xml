@@ -4,7 +4,7 @@
 		module="sensorcoverage$sources_javadoc"
 		revision="1.0"
 		status="integration"
-		publication="20140803153116"
+		publication="20140809135304"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

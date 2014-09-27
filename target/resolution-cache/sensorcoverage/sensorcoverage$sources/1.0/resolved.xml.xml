@@ -4,7 +4,7 @@
 		module="sensorcoverage$sources"
 		revision="1.0"
 		status="integration"
-		publication="20140803153115"
+		publication="20140809135303"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -607,9 +607,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.2!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.2!apply-macro.jar
-[debug] :: resolution report :: resolve 1664ms :: artifacts dl 71ms
+[debug] :: resolution report :: resolve 1195ms :: artifacts dl 31ms
 [debug] 	report for sensorcoverage#sensorcoverage$sbt;1.0 default produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sbt-default.xml
-[debug] 	resolve done (1664ms resolve - 71ms download)
+[debug] 	resolve done (1195ms resolve - 31ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: sensorcoverage#sensorcoverage$sources;1.0
 [debug] 	confs: [default]
@@ -944,6 +944,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.2!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.2!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.2!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 319ms :: artifacts dl 30ms
+[debug] :: resolution report :: resolve 194ms :: artifacts dl 928ms
 [debug] 	report for sensorcoverage#sensorcoverage$sources;1.0 default produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources-default.xml
-[debug] 	resolve done (319ms resolve - 30ms download)
+[debug] 	resolve done (194ms resolve - 928ms download)

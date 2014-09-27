@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for sensorcoverage#sensorcoverage$sources_javadoc;1.0 [compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ced46b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@385e35ee
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-library;2.10.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->default(compile)]
 [info] Resolving gov.nist.math#jama;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c712fb5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15fdaa18
 [debug] sbt-chain: module revision found in cache: gov.nist.math#jama;1.0.3
 [debug] 	local: revision in cache: gov.nist.math#jama;1.0.3
 [debug] 	found gov.nist.math#jama;1.0.3 in sbt-chain
@@ -25,77 +25,42 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
 [info] Resolving de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4efc646f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6756223f
 [debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
 [debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
 [debug] 		tried /home/eloi/.ivy2/local/de.micromata.jak/JavaAPIforKml/2.2.0-SNAPSHOT/ivys/ivy.xml
 [debug] 	local: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
 [debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
-[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
 [debug] 	maven-metadata not available: http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
 [debug] 		tried http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
 [debug] 	public: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
 [debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
-[warn] Host bitbucket.org not found. url=https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] CLIENT ERROR: NOT FOUND url=https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
 [debug] 	maven-metadata not available: https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
 [debug] 		tried https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] Host bitbucket.org not found. url=https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] CLIENT ERROR: NOT FOUND url=https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
 [debug] 	My bitbucket maven releases repo: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
 [debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
-[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
 [debug] 	maven-metadata not available: http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
 [debug] 		tried http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] Host repo1.maven.org not found. url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
 [debug] 	public: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
 [debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
-[warn] Host download.java.net not found. url=http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[info] You probably access the destination server through a proxy server that is not well configured.
-[debug] 	maven-metadata not available: http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[debug] 		tried http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] Host download.java.net not found. url=http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[info] You probably access the destination server through a proxy server that is not well configured.
-[debug] 	Java.net repository: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
-[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
-[warn] Host download.osgeo.org not found. url=http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[info] You probably access the destination server through a proxy server that is not well configured.
-[debug] 	maven-metadata not available: http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[debug] 		tried http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] Host download.osgeo.org not found. url=http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[info] You probably access the destination server through a proxy server that is not well configured.
-[debug] 	Open Source Geospatial Foundation Repository: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
-[debug] don't use cache for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: changing=true
-[warn] Host repo.opengeo.org not found. url=http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[info] You probably access the destination server through a proxy server that is not well configured.
-[debug] 	maven-metadata not available: http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/maven-metadata.xml
-[debug] 		tried http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] Host repo.opengeo.org not found. url=http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[info] You probably access the destination server through a proxy server that is not well configured.
-[debug] 	OpenGeo Maven Repository: no ivy file found for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
-[warn] 	module not found: de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
-[warn] ==== local: tried
-[warn]   /home/eloi/.ivy2/local/de.micromata.jak/JavaAPIforKml/2.2.0-SNAPSHOT/ivys/ivy.xml
-[warn] ==== public: tried
-[warn]   http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] ==== My bitbucket maven releases repo: tried
-[warn]   https://bitbucket.org/eloipereira/maven-repo-releases/raw/master/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] ==== public: tried
-[warn]   http://repo1.maven.org/maven2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] ==== Java.net repository: tried
-[warn]   http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] ==== Open Source Geospatial Foundation Repository: tried
-[warn]   http://download.osgeo.org/webdav/geotools/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
-[warn] ==== OpenGeo Maven Repository: tried
-[warn]   http://repo.opengeo.org/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-SNAPSHOT.pom
+[debug] [2.2.0-20100113.170523-12] de/micromata/jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] 		tried http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-20100113.170523-12.pom
+[debug] 	Java.net repository: found md file for de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] 		=> http://download.java.net/maven/2/de/micromata/jak/JavaAPIforKml/2.2.0-SNAPSHOT/JavaAPIforKml-2.2.0-20100113.170523-12.pom (2.2.0-SNAPSHOT)
+[debug] 	default-cache: revision in cache (not updated): de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT
+[debug] 	found de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT in sbt-chain
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
 [info] Resolving com.sun.xml.bind#jaxb-impl;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ecae26d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60b39f2e
 [debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-impl;2.2
 [debug] 	local: revision in cache: com.sun.xml.bind#jaxb-impl;2.2
 [debug] 	found com.sun.xml.bind#jaxb-impl;2.2 in sbt-chain
@@ -104,7 +69,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->default(compile)]
 [info] Resolving javax.xml.bind#jaxb-api;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@156513bb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@179682b2
 [debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2
 [debug] 	local: revision in cache: javax.xml.bind#jaxb-api;2.2
 [debug] 	found javax.xml.bind#jaxb-api;2.2 in sbt-chain
@@ -113,7 +78,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.bind#jaxb-api;2.2 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->default(compile)]
 [info] Resolving javax.xml.stream#stax-api;1.0-2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@431d0dfc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@395ed2d7
 [debug] sbt-chain: module revision found in cache: javax.xml.stream#stax-api;1.0-2
 [debug] 	local: revision in cache: javax.xml.stream#stax-api;1.0-2
 [debug] 	found javax.xml.stream#stax-api;1.0-2 in sbt-chain
@@ -122,7 +87,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.xml.stream#stax-api;1.0-2 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f6f44a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f945c20
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
 [debug] 	local: revision in cache: javax.activation#activation;1.1
 [debug] 	found javax.activation#activation;1.1 in sbt-chain
@@ -131,7 +96,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->javax.activation#activation;1.1 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [compile->default(compile)]
 [info] Resolving com.sun.xml.bind#jaxb-xjc;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a0f2d0d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ee9a71f
 [debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-xjc;2.2
 [debug] 	local: revision in cache: com.sun.xml.bind#jaxb-xjc;2.2
 [debug] 	found com.sun.xml.bind#jaxb-xjc;2.2 in sbt-chain
@@ -150,6 +115,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
@@ -179,6 +147,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
@@ -212,6 +183,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
@@ -241,6 +215,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
@@ -270,6 +247,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->compile]
@@ -292,7 +272,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-xjc;2.2 [test->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.10;2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4671e502
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12edb111
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.0
 [debug] 	local: revision in cache: org.scalatest#scalatest_2.10;2.0
 [debug] 	found org.scalatest#scalatest_2.10;2.0 in sbt-chain
@@ -301,7 +281,7 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scalatest#scalatest_2.10;2.0 [test->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@159aa99f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6db61fa5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
@@ -324,6 +304,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
@@ -355,6 +338,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile-internal->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile-internal->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile-internal->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile-internal->compile]
@@ -388,6 +374,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
@@ -417,6 +406,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
@@ -447,6 +439,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime-internal->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime-internal->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime-internal->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime-internal->compile]
@@ -481,6 +476,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [compile->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [compile->compile]
@@ -510,6 +508,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [runtime->compile]
@@ -539,6 +540,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test->compile]
@@ -578,6 +582,9 @@
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test-internal->compile]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->gov.nist.math#jama;1.0.3 [test-internal->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test-internal->default(compile)]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test-internal->runtime]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT [test-internal->master]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->default(compile)]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->runtime]
 [debug] == resolving dependencies sensorcoverage#sensorcoverage$sources_javadoc;1.0->com.sun.xml.bind#jaxb-impl;2.2 [test-internal->compile]
@@ -665,6 +672,8 @@
 [debug] 	[NOT REQUIRED] gov.nist.math#jama;1.0.3!jama.jar(src)
 [debug] 	[NOT REQUIRED] gov.nist.math#jama;1.0.3!jama.jar(doc)
 [debug] 	[NOT REQUIRED] gov.nist.math#jama;1.0.3!jama.jar
+[debug] 	[NOT REQUIRED] de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT!JavaAPIforKml.jar
+[debug] 	[NOT REQUIRED] de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT!JavaAPIforKml.jar(src)
 [debug] 	[NOT REQUIRED] com.sun.xml.bind#jaxb-impl;2.2!jaxb-impl.jar(src)
 [debug] 	[NOT REQUIRED] com.sun.xml.bind#jaxb-impl;2.2!jaxb-impl.jar
 [debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2!jaxb-api.jar
@@ -689,12 +698,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 1027ms :: artifacts dl 84ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::          UNRESOLVED DEPENDENCIES         ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: de.micromata.jak#JavaAPIforKml;2.2.0-SNAPSHOT: not found
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] :: resolution report :: resolve 2825ms :: artifacts dl 402ms
 [debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 compile produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-compile.xml
 [debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 runtime produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-runtime.xml
 [debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 test produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-test.xml
@@ -708,4 +712,4 @@
 [debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 docs produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-docs.xml
 [debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 pom produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-pom.xml
 [debug] 	report for sensorcoverage#sensorcoverage$sources_javadoc;1.0 scala-tool produced in /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/resolution-cache/reports/sensorcoverage-sensorcoverage$sources_javadoc-scala-tool.xml
-[debug] 	resolve done (1027ms resolve - 84ms download)
+[debug] 	resolve done (2825ms resolve - 402ms download)

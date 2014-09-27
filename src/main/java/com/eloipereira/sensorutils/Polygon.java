@@ -15,6 +15,10 @@ public class Polygon {
         this.points = points;
     }
 
+    public Coordinate[] getPoints() {
+        return points;
+    }
+
     public Kml toKml() {
 
         de.micromata.opengis.kml.v_2_2_0.Polygon poly = new de.micromata.opengis.kml.v_2_2_0.Polygon();

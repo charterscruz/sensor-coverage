@@ -1,6 +1,4 @@
-# README #
-
-Sensor Coverage library
+# Sensor Coverage Java Library #
 
 ### What is this repository for? ###
 

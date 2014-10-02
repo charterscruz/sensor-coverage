@@ -4,6 +4,8 @@ version := "1.0"
 
 crossPaths := false
 
+javacOptions ++= Seq("-source", "1.7")
+
 resolvers += "My bitbucket maven releases repo" at "https://bitbucket.org/eloipereira/maven-repo-releases/raw/master"
 
 resolvers += DefaultMavenRepository

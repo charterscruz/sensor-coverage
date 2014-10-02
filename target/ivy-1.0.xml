@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="sensorcoverage" module="sensorcoverage" revision="1.0" status="release" publication="20140926181514">
+	<info organisation="sensorcoverage" module="sensorcoverage" revision="1.0" status="release" publication="20141001200117">
 		<description>
 		SensorCoverage
 		</description>

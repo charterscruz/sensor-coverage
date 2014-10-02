@@ -3,6 +3,7 @@ package com.eloipereira.sensorutils;
 import Jama.Matrix;
 import com.eloipereira.geoutils.Coordinate;
 import com.eloipereira.geoutils.GeoUtils;
+import com.sun.xml.bind.v2.runtime.output.SAXOutput;
 import de.micromata.opengis.kml.v_2_2_0.Boundary;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
 import de.micromata.opengis.kml.v_2_2_0.LinearRing;
@@ -29,9 +30,10 @@ public class SensorCoverage {
                                                  RollPitchYaw vehicleAtt,
                                                  Coordinate sensorOffset,
                                                  PanTilt sensorAtt,
+                                                 int sensorWidth,
+                                                 int sensorHeight,
                                                  int sensorFocal,
                                                  Coordinate imageCoord){
-
         double [][] arrayImage2Mount = {
                 {0,0,1},
                 {1,0,0},
@@ -67,15 +69,28 @@ public class SensorCoverage {
         Matrix body2inertial = new Matrix(arrayInertial2Body,3,3).transpose();
 
         double[][] imageCoordFocalArray = {
-                {imageCoord.x},
-                {imageCoord.y},
+                {imageCoord.x-sensorWidth/2},
+                {imageCoord.y-sensorHeight/2},
                 {sensorFocal}
         };
+
         Matrix imageCoordFocalTemp = new Matrix(imageCoordFocalArray);
+
         Matrix imageCoordFocal = imageCoordFocalTemp.times(1/imageCoordFocalTemp.norm2());
 
-        double norm = vehicleGeoLoc.z/(body2inertial.times(mount2body.times(image2mount.times(imageCoordFocal))).get(2,0));
-        Matrix vecNED = body2inertial.times(mount2body.times(image2mount.times(imageCoordFocal))).times(norm);
+        Matrix vecMount = image2mount.times(imageCoordFocal);
+
+        Matrix vecBody = mount2body.times(vecMount);
+
+        Matrix vecNEDUnitary = body2inertial.times(vecBody);
+
+        if( vecNEDUnitary.get(2,0) < 0){
+            vecNEDUnitary.set(2,0,0.01);
+        }
+
+        double norm = vehicleGeoLoc.z/vecNEDUnitary.get(2,0);
+
+        Matrix vecNED = vecNEDUnitary.times(norm);
 
         Coordinate nedResult = new Coordinate(vecNED.get(0,0),vecNED.get(1,0),vecNED.get(2,0));
         return GeoUtils.ned2geo(nedResult,vehicleGeoLoc);
@@ -89,17 +104,17 @@ public class SensorCoverage {
                                                             int sensorHeight,
                                                             int sensorFocal){
 
-        Coordinate cornerTL = new Coordinate(-Math.floor(sensorWidth/2),-Math.floor(sensorHeight/2),0);
-        Coordinate cornerTR = new Coordinate(-Math.floor(sensorWidth/2),Math.floor(sensorHeight/2),0);
-        Coordinate cornerBL = new Coordinate(Math.floor(sensorWidth/2),-Math.floor(sensorHeight/2),0);
-        Coordinate cornerBR = new Coordinate(Math.floor(sensorWidth/2),Math.floor(sensorHeight/2),0);
+        Coordinate cornerA = new Coordinate(0,0,0);
+        Coordinate cornerB = new Coordinate(0,sensorHeight,0);
+        Coordinate cornerC = new Coordinate(sensorWidth,sensorHeight,0);
+        Coordinate cornerD = new Coordinate(sensorWidth,0,0);
 
-        Coordinate cornerTLGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorFocal,cornerTL);
-        Coordinate cornerTRGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorFocal,cornerTR);
-        Coordinate cornerBLGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorFocal,cornerBL);
-        Coordinate cornerBRGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorFocal,cornerBR);
+        Coordinate cornerAGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorWidth,sensorHeight, sensorFocal,cornerA);
+        Coordinate cornerBGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorWidth,sensorHeight,sensorFocal,cornerB);
+        Coordinate cornerCGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorWidth,sensorHeight,sensorFocal,cornerC);
+        Coordinate cornerDGeo = getPixelCoordinates(vehicleGeoLoc,vehicleAtt,sensorOffset ,sensorAtt,sensorWidth,sensorHeight,sensorFocal,cornerD);
 
-        Coordinate[] array = {cornerTLGeo,cornerTRGeo,cornerBRGeo,cornerBLGeo,cornerTLGeo};
+        Coordinate[] array = {cornerAGeo,cornerBGeo,cornerCGeo,cornerDGeo,cornerAGeo};
 
         return new Polygon(array);
     }

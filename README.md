@@ -12,6 +12,6 @@
 
 ### Developers ###
 
-* Resposible: Eloi Pereira <etpereira@academiafa.edu.pt>
+* Resposible: Eloi Pereira <epereira@academiafa.edu.pt>
 
 * Other contributers: Gonçalo Cruz, Pedro Marques da Silva

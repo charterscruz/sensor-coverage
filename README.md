@@ -9,3 +9,9 @@
 ### How do I get set up? ###
 
 * Use Sbt build tool (http://www.scala-sbt.org/)
+
+### Developers ###
+
+* Resposible: Eloi Pereira <etpereira@academiafa.edu.pt>
+
+* Other contributers: Gonçalo Cruz, Pedro Marques da Silva

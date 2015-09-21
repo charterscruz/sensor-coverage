@@ -1,1 +1,29 @@
-[0m[[0mdebug[0m] [0mJar uptodate: /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/sensorcoverage-1.0.jar[0m
+[0m[[0minfo[0m] [0mPackaging /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/sensorcoverage-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils/Polygon.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils/Polygon.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils/SensorCoverage.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils/SensorCoverage.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/geoutils/Coordinate.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/geoutils/Coordinate.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils/Example0.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils/Example0.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils[0m
+[0m[[0mdebug[0m] [0m	footprint.kml[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/footprint.kml[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils/PanTilt.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils/PanTilt.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils/Attitude.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils/Attitude.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/geoutils/GeoUtils.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/geoutils/GeoUtils.class[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/geoutils[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/geoutils[0m
+[0m[[0mdebug[0m] [0m	com/eloipereira/sensorutils/RollPitchYaw.class[0m
+[0m[[0mdebug[0m] [0m	  /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/classes/com/eloipereira/sensorutils/RollPitchYaw.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

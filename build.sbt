@@ -20,11 +20,11 @@ libraryDependencies += "gov.nist.math" % "jama" % "1.0.3"
 
 libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
 
-libraryDependencies += "de.micromata.jak" % "JavaAPIforKml" % "2.2.0-SNAPSHOT"
+libraryDependencies += "de.micromata.jak" % "JavaAPIforKml" % "2.2.0"
 
 publishTo <<= version { (v: String) =>
   if (v.trim.endsWith("SNAPSHOT"))
-    Some(Resolver.file("file",  new File( Path.userHome.absolutePath+"/.m2/repository/snapshots" )) )
+    Some(Resolver.file("file",  new File( Path.userHome.absolutePath+"/.m2/repository/maven2-snapshot" )) )
   else
-    Some(Resolver.file("file",  new File( Path.userHome.absolutePath+"/.m2/repository/releases" )) )
+    Some(Resolver.file("file",  new File( Path.userHome.absolutePath+"/.m2/repository/maven2-release" )) )
 }

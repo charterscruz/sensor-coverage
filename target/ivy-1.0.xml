@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="sensorcoverage" module="sensorcoverage" revision="1.0" status="release" publication="20141001200117">
+	<info organisation="sensorcoverage" module="sensorcoverage" revision="1.0" status="release" publication="20150921104516">
 		<description>
 		SensorCoverage
 		</description>
@@ -31,6 +31,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="compile->default(compile)"/>
 		<dependency org="gov.nist.math" name="jama" rev="1.0.3" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" conf="test->default(compile)"/>
-		<dependency org="de.micromata.jak" name="JavaAPIforKml" rev="2.2.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="de.micromata.jak" name="JavaAPIforKml" rev="2.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

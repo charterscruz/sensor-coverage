@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m:: delivering :: sensorcoverage#sensorcoverage;1.0 :: 1.0 :: release :: Mon Sep 21 10:45:16 WEST 2015[0m
-[0m[[0mdebug[0m] [0m	options = status=release pubdate=Mon Sep 21 10:45:16 WEST 2015 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
-[0m[[0minfo[0m] [0m	delivering ivy file to /home/eloi/Dropbox/IDEAWorkspace/SensorCoverage/target/ivy-1.0.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (166ms)[0m
